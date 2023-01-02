@@ -5,7 +5,7 @@ function Heading() {
     const topics = Topic.Topic
     return (
         <div className='container my-3 text-center'>
-            <h1>Top News of {topics}</h1>
+            <h1 className='text-capitalize'>Top News of {topics}</h1>
         </div>
     )
 }

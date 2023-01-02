@@ -16,7 +16,9 @@ function Cards() {
     }, [])
 
     if (isLoading) {
-        return <h1>Loading...</h1>
+        return <h1 className='text-center mt-5'><div className="spinner-border text-primary text-center mt-5" role="status">
+        </div></h1>
+
     }
 
     return (

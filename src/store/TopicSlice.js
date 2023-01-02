@@ -4,12 +4,13 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 const TopicSlice = createSlice({
     name: "Topic",
-    initialState:{
-        Topic:"india"
+    initialState: {
+        Topic: "india"
     },
     reducers: {
         addSearchtext(state, action) {
-            state.Topic=action.payload
+            state.Topic = action.payload
+            console.log(action.payload);
         }
     }
 })
