@@ -22,7 +22,7 @@ function Nav() {
     return (
 
         <nav className="navbar bg-primary d-flex justify-content-between">
-            <img className='p-1 ms-4' style={{ width: "45px", backgroundColor: "white", borderRadius: "50%" }} src={Logo} alt="logo" />
+            <img className=' nav-img p-1 ms-4' style={{ width: "45px", backgroundColor: "white", borderRadius: "50%" }} src={Logo} alt="logo" />
             <form className="d-flex me-3" role="search" onSubmit={(e)=>handleSubmit(e)}>
                 <input className=" form-control me-2" type="search" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search" aria-label="Search" />
                 <button className="btn btn-outline-light" type="submit" >Search</button>
